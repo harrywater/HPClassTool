@@ -11,6 +11,7 @@
 		56BCC9912137CBF000A24160 /* HPPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BCC9902137CBF000A24160 /* HPPerson.m */; };
 		56BCC9942137CBFC00A24160 /* HPStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BCC9932137CBFC00A24160 /* HPStudent.m */; };
 		56BCC9982137CCB600A24160 /* HPClassTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BCC9972137CCB600A24160 /* HPClassTool.m */; };
+		56BCC99B2137ECDA00A24160 /* HPStudent+Study.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BCC99A2137ECDA00A24160 /* HPStudent+Study.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		56BCC9932137CBFC00A24160 /* HPStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPStudent.m; sourceTree = "<group>"; };
 		56BCC9962137CCB600A24160 /* HPClassTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPClassTool.h; sourceTree = "<group>"; };
 		56BCC9972137CCB600A24160 /* HPClassTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPClassTool.m; sourceTree = "<group>"; };
+		56BCC9992137ECDA00A24160 /* HPStudent+Study.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HPStudent+Study.h"; sourceTree = "<group>"; };
+		56BCC99A2137ECDA00A24160 /* HPStudent+Study.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "HPStudent+Study.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				56BCC9902137CBF000A24160 /* HPPerson.m */,
 				56BCC9922137CBFC00A24160 /* HPStudent.h */,
 				56BCC9932137CBFC00A24160 /* HPStudent.m */,
+				56BCC9992137ECDA00A24160 /* HPStudent+Study.h */,
+				56BCC99A2137ECDA00A24160 /* HPStudent+Study.m */,
 			);
 			path = HPClassTool;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				56BCC9912137CBF000A24160 /* HPPerson.m in Sources */,
 				56BCC9942137CBFC00A24160 /* HPStudent.m in Sources */,
 				56BCC9892137CBE100A24160 /* main.m in Sources */,
+				56BCC99B2137ECDA00A24160 /* HPStudent+Study.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
