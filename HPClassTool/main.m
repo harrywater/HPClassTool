@@ -10,18 +10,22 @@
 #import "HPPerson.h"
 #import "HPStudent.h"
 #import "HPClassTool.h"
+#import <objc/runtime.h>
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        [HPClassTool printClassMethod:[HPStudent class]];
-        [HPClassTool printClassMethod:[HPPerson class]];
+//        NSLog(@"no==%d",[HPStudent getNo]);
         
-        [HPClassTool printClassIvars:[HPStudent class]];
-        [HPClassTool printClassIvars:[HPPerson class]];
-        
-        [HPClassTool printClassProperties:[HPStudent class]];
-        [HPClassTool printClassProperties:[HPPerson class]];
+        Class metaClass = object_getClass([HPStudent class]);
+        [HPClassTool printClassMethod:metaClass];
+//        [HPClassTool printClassMethod:[HPPerson class]];
+//
+//        [HPClassTool printClassIvars:[HPStudent class]];
+//        [HPClassTool printClassIvars:[HPPerson class]];
+//
+//        [HPClassTool printClassProperties:[HPStudent class]];
+//        [HPClassTool printClassProperties:[HPPerson class]];
         
     }
     return 0;
